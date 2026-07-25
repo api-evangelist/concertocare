@@ -1,9 +1,26 @@
 aid: concertocare
 name: ConcertoCare
-description: ConcertoCare is a company surfaced as a portfolio company of obvious-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: ConcertoCare is a value-based healthcare provider delivering coordinated, in-home and virtual
+  medical care to Medicare-eligible seniors and adults with complex, chronic, and behavioral health needs.
+  Its interdisciplinary care teams of physicians, nurse practitioners, pharmacists, and social workers
+  deliver house calls, medication management, behavioral and social health support, transportation and
+  nutritional assistance, caregiver support, and advanced care and palliative planning, coordinating with
+  a member's existing doctors and benefit plans. The company operates as a SOC 2 Type II and HITRUST CSF
+  certified organization and is a portfolio company of Obvious Ventures. It has no public API or developer
+  program at this time; this profile is maintained in the API Evangelist network as a company record.
 url: https://raw.githubusercontent.com/api-evangelist/concertocare/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://concertocare.com/apple-touch-icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Home Health
+- Senior Care
+- Primary Care
+- Value-Based Care
+- Medicare
+- Palliative Care
+- Telehealth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/concertocare-domain-security.yml
 - type: Website
   url: https://concertocare.com
+- type: Blog
+  url: https://concertocare.com/blog
+- type: PrivacyPolicy
+  url: https://concertocare.com/privacy-policy
+- type: Support
+  url: https://concertocare.com/get-in-touch?iam=general
+- type: Compliance
+  url: https://concertocare.com
+- type: Careers
+  url: https://concertocare.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/concertocare
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
