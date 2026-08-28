@@ -9,6 +9,17 @@ description: ConcertoCare is a value-based healthcare provider delivering coordi
   certified organization and is a portfolio company of Obvious Ventures. It has no public API or developer
   program at this time; this profile is maintained in the API Evangelist network as a company record.
 url: https://raw.githubusercontent.com/api-evangelist/concertocare/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
